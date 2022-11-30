@@ -12,6 +12,7 @@
   border-radius: 16px;
   transition-duration: 0.5s;
   margin: 16px;
+  cursor: pointer;
 }
 
 .button:hover {
