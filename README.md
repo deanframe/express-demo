@@ -13,10 +13,12 @@ Clone this repo to your computer - we'll be building a simple REST endpoint!
 const express = require("express")
 const cors = require("cors")
 
-app.use(cors());
+
 
 const app = express();
 const port = 3001;
+
+app.use(cors());
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
